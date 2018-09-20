@@ -7,3 +7,4 @@ Leetcode solution during my interview preperation
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/ValidParentheses.java)|
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/RemoveDupicateFromSortedArray.java)|
 | [Maximum Average SubArray I](https://leetcode.com/problems/maximum-average-subarray-i/description/)| [Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/MaximumAverageSubArrayI.java)|
+| [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/LongestUncommonSubsequenceI.java)|
