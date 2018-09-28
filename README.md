@@ -12,3 +12,4 @@ Leetcode solution during my interview preperation
 | [Divisible Pairs Sum](https://www.hackerrank.com/challenges/linkedin-practice-divisible-sum-pairs/problem)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/DivisiblePairsSum.java)| Hackerrank Question |
 | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/WalkingRobot.java)|
 | [String Compression](https://leetcode.com/problems/string-compression/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/StringCompression.java)|
+| [To Lower Case](https://leetcode.com/problems/to-lower-case/)| [Solutio](https://github.com/manojkumarsmks/Leetcode/blob/master/ToLowerCase.java)|
