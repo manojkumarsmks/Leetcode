@@ -10,3 +10,4 @@ Leetcode solution during my interview preperation
 | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/LongestUncommonSubsequenceI.java)|
 | [Best Time to Buy and Sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/MaxStockProfitI.java)|
 | [Divisible Pairs Sum](https://www.hackerrank.com/challenges/linkedin-practice-divisible-sum-pairs/problem)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/DivisiblePairsSum.java)| Hackerrank Question |
+| [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/WalkingRobot.java)|
