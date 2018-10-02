@@ -13,3 +13,4 @@ Leetcode solution during my interview preperation
 | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/WalkingRobot.java)|
 | [String Compression](https://leetcode.com/problems/string-compression/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/StringCompression.java)|
 | [To Lower Case](https://leetcode.com/problems/to-lower-case/)| [Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/ToLowerCase.java)|
+| [Counting Bits](https://leetcode.com/problems/counting-bits/description/)| [Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/CountingBits.java)|
