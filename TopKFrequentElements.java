@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/top-k-frequent-elements/description/
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -5,12 +6,14 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-// https://leetcode.com/problems/top-k-frequent-elements/description/
 public class TopKFrequentElements {
 
 	public static void main(String[] args) {
 		int[] nums = {1,1,1,2,2,3};
-		topKFrequent(nums, 2);
+		List<Integer> result = topKFrequent(nums, 2);
+		
+		for(Integer integer:result)
+			System.out.println(integer);
 	}
 	
     public static List<Integer> topKFrequent(int[] nums, int k) {
@@ -24,21 +27,32 @@ public class TopKFrequentElements {
     	}
         Set<Integer> set = map.keySet();
         
-        TreeMap<Integer, Integer> treeMap = new TreeMap<>();
+        TreeMap<Integer, List<Integer>> treeMap = new TreeMap<>();
         
         for(Integer integer:set) {
         	int freq = map.get(integer);
-        	treeMap.put(integer, freq);
+        	
+        	if(treeMap.containsKey(freq)) {
+        		List<Integer> temp = treeMap.get(freq);
+        		temp.add(integer);
+        		treeMap.put(freq, temp);
+        	}
+        	else {
+        		List<Integer>temp = new ArrayList<>();
+        		temp.add(integer);
+        		treeMap.put(freq, temp);
+        	}
+        	
         }
         
         set = treeMap.keySet();
         
-        for(int i =0; i <set.size()-k; i++) {
-        	System.out.println(treeMap.pollFirstEntry());
-        }
         List<Integer> result = new ArrayList<>();
+        while(result.size() < k) {
+        	result.addAll(treeMap.pollLastEntry().getValue());
+        }
         
-		return result.addAll(treeMap.values());
+        return result;
     }
 
 }
