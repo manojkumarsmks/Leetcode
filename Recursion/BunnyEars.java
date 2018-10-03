@@ -8,7 +8,7 @@ public class BunnyEars {
 		System.out.println(bunnyEars.bunnyEars(5));
 	}
 	
-	// Solution
+	// Solutionit
 	public int bunnyEars(int bunnies) {
 		if(bunnies == 0)
 			return 0;
