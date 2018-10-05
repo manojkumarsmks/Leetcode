@@ -16,3 +16,4 @@ Leetcode solution during my interview preperation
 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)| [Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/CountingBits.java)|
 | [Top K Frequent Element](https://leetcode.com/problems/top-k-frequent-elements/description/)| [Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/TopKFrequentElements.java)|
 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) |[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/HammingDistance.java)|
+| [Recursion](https://codingbat.com/java/Recursion-1) |[Solution](https://github.com/manojkumarsmks/Leetcode/tree/master/Recursion)|CodingBat Recursion 1|
