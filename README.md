@@ -19,4 +19,4 @@ Leetcode solution during my interview preperation
 | [Recursion](https://codingbat.com/java/Recursion-1) |[Solution](https://github.com/manojkumarsmks/Leetcode/tree/master/Recursion)|CodingBat Recursion 1|
 |[Largest Number](https://leetcode.com/problems/largest-number/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/LargestNumber.java)| Comparator technique |
 |[Meeting room]()|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/MeetingRooms.java)|Leetcode #252|
-
+|[Number Complement](https://leetcode.com/problems/number-complement/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/NumberComplement.java)|Not suggested solution|
