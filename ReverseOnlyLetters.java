@@ -1,43 +1,34 @@
+import java.util.Stack;
+
 // https://leetcode.com/problems/reverse-only-letters/description/
 public class ReverseOnlyLetters {
 
 	public static void main(String[] args) {
-		System.out.println(reverseOnlyLetters("a-bC-dEf-ghIj"));
+		System.out.println(reverseOnlyLetters(";1yDV"));
 	}
 	
     public static String reverseOnlyLetters(String S) {
     	
-    	char[] sArray = S.toCharArray();
+    	if(S.length() <= 1)
+    		return S;
     	
-    	int start = 0, end = sArray.length-1;
+    	Stack<Character> stack = new Stack<>();
     	
-    	while(start < end) {
+    	for(char ch:S.toCharArray()) {
     		
-    		if(((sArray[start] >= 'a'  && sArray[start] <= 'z') || (sArray[start] >= 'A'  && sArray[start] <= 'Z'))
-    				&&((sArray[end] >= 'a'  && sArray[end] <= 'z') || (sArray[end] >= 'A'  && sArray[end] <= 'A'))) {
-    			char temp = sArray[start];
-    			sArray[start] = sArray[end];
-    			sArray[end] = temp;
-    			start++;
-    			end--;
-    		}
-    		
-    		if(((sArray[start] >= 'a'  && sArray[start] <= 'z') || (sArray[start] >= 'A'  && sArray[start] <= 'Z'))
-    				&&(!(sArray[end] >= 'a'  && sArray[end] <= 'z') && !(sArray[end] >= 'A'  && sArray[end] <= 'A')))
-    		end--;
-    		
-    		if((!(sArray[start] >= 'a'  && sArray[start] <= 'z') && !(sArray[start] >= 'A'  && sArray[start] <= 'Z'))
-    				&&((sArray[end] >= 'a'  && sArray[end] <= 'z') || (sArray[end] >= 'A'  && sArray[end] <= 'A')))
-    		start++;
-    		
-    		else {
-    			start++;
-    			end--;
-    		}
+    		if((ch >='a' && ch <= 'z') || (ch >='A' && ch <= 'Z'))
+    			stack.push(ch);
+    	}
+    	StringBuilder stringBuilder = new StringBuilder();
+    	
+    	for(int i=0; i<S.length(); i++) {	
+    		if((S.charAt(i) >='a' && S.charAt(i) <= 'z') || (S.charAt(i) >='A' && S.charAt(i) <= 'Z'))
+    			stringBuilder.append(stack.pop());
+    		else
+    			stringBuilder.append(S.charAt(i));
     	}
     	
-    	return new String(sArray);
-        
+    	return stringBuilder.toString();
     }
 
 }
