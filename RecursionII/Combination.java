@@ -9,8 +9,8 @@ import java.util.Stack;
 public class Combination {
 
 	public static void main(String[] args) {
-		String s = "1?11?00?1?";
-		printCombination(s);
+		String s = "???";
+		printCombinationsRecursive(s);
 	}
 	
 	//TODO should be debugged 
@@ -61,7 +61,6 @@ public class Combination {
 
 	// Iterative method 
 	public static void printCombination(String pattern) {
-		
 		if(!pattern.contains("?") || pattern.length() == 0)
 			return;
 		
@@ -80,10 +79,34 @@ public class Combination {
 			}
 			else {
 				System.out.println(temp);
-			}
-			
+			}	
+		}
+	}
+	
+	// Recursive Method
+	public static void printCombinationsRecursive(String pattern) {
+		combinationHelper(pattern.toCharArray(), 0);
+	}
+
+	private static void combinationHelper(char[] pattern, int i) {
+		if(!new String(pattern).contains("?")) {
+			System.out.println(pattern);
+			return;
 		}
 		
+		if(pattern[i] == '?') {
+			pattern[i] = '0';
+			combinationHelper(pattern, i+1);
+			pattern[i] = '1';
+			combinationHelper(pattern, i+1);
 			
+			// Main statement for backtracking
+			pattern[i] = '?';
+		}
+		else {
+			combinationHelper(pattern, i+1);
+		}
+		
+		
 	}
 }
