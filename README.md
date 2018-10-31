@@ -23,4 +23,5 @@ Leetcode solution during my interview preperation
 |[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/description/)|[Solution](https://github.com/manojkumarsmks/Leetcode/tree/master/RecursionII)|Stack Solution and Pointer Solution|
 |[RecursionII](http://www.techiedelight.com/recursion-practice-problems-with-solutions/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/ReverseOnlyLetters.java)|Recursion Problem and Solutions|
 |[Unique Email Address](https://leetcode.com/problems/unique-email-addresses/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/UniqueEmailAddress.java)|
+|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/Roman2Integer.java)|
 
