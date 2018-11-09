@@ -24,4 +24,5 @@ Leetcode solution during my interview preperation
 |[RecursionII](http://www.techiedelight.com/recursion-practice-problems-with-solutions/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/ReverseOnlyLetters.java)|Recursion Problem and Solutions|
 |[Unique Email Address](https://leetcode.com/problems/unique-email-addresses/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/UniqueEmailAddress.java)|
 |[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/Roman2Integer.java)|
+|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/FindPivotIndex.java)|
 
