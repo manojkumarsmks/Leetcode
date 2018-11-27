@@ -30,3 +30,4 @@ Leetcode solution during my interview preperation
 |[Buy and Sell Stock I](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/BuynSellStockI.java)|
 |[Buy and Sell Stocks II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/BuynSellStockII.java)|
 |[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/BoatsToSavePeople.java)|
+|[Rotate Array](https://leetcode.com/problems/rotate-array/submissions/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/RotateArray.java)|
