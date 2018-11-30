@@ -31,3 +31,5 @@ Leetcode solution during my interview preperation
 |[Buy and Sell Stocks II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/BuynSellStockII.java)|
 |[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/BoatsToSavePeople.java)|
 |[Rotate Array](https://leetcode.com/problems/rotate-array/submissions/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/RotateArray.java)|
+|[Contain Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/ContainDuplicateII.java)|
+|[Maximum Product of 3 Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Solution](https://github.com/manojkumarsmks/Leetcode/blob/master/MaxOf3Products.java)|
